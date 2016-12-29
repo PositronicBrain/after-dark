@@ -13,4 +13,6 @@
   {{ partial "post/byline" . }}
   {{ partial "post/related-posts" . }}
   {{ partial "powered-by" . }}
+  <hr>
+  {{ template "_internal/disqus.html" . }}
 {{ end }}
